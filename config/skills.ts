@@ -9,32 +9,25 @@ export interface skillsInterface {
 
 export const skillsUnsorted: skillsInterface[] = [
   {
+    name: "Laravel",
+    description:
+      "Build robust web applications with an elegant PHP framework featuring MVC architecture.",
+    rating: 4,
+    icon: Icons.laravel,
+  },
+  {
     name: "Next.js",
     description:
       "Effortlessly build dynamic apps with routing, layouts, loading UI, and API routes.",
-    rating: 5,
+    rating: 3,
     icon: Icons.nextjs,
   },
   {
     name: "React",
     description:
       "Craft interactive user interfaces using components, state, props, and virtual DOM.",
-    rating: 5,
+    rating: 3,
     icon: Icons.react,
-  },
-  {
-    name: "GraphQL",
-    description:
-      "Fetch data precisely with a powerful query language for APIs and runtime execution.",
-    rating: 4,
-    icon: Icons.graphql,
-  },
-  {
-    name: "Nest.js",
-    description:
-      "Create scalable and modular applications with a progressive Node.js framework.",
-    rating: 4,
-    icon: Icons.nestjs,
   },
   {
     name: "express.js",
@@ -86,47 +79,11 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.css3,
   },
   {
-    name: "React Native",
+    name: "Native Android",
     description:
-      "Develop cross-platform mobile apps using React for consistent and engaging experiences.",
+      "Build high-performance Android apps using Java or Kotlin with full access to device features.",
     rating: 4,
-    icon: Icons.react,
-  },
-  {
-    name: "Angular",
-    description:
-      "Build dynamic web apps with a TypeScript-based open-source framework by Google.",
-    rating: 3,
-    icon: Icons.angular,
-  },
-  {
-    name: "Redux",
-    description:
-      "Manage app state effectively using a predictable and centralized state container.",
-    rating: 4,
-    icon: Icons.redux,
-  },
-  {
-    name: "Socket.io",
-    description:
-      "Enable real-time, bidirectional communication between clients and servers effortlessly.",
-    rating: 3,
-    icon: Icons.socketio,
-  },
-  {
-    name: "Material UI",
-    description:
-      "Create stunning and responsive UIs with a popular React UI framework.",
-    rating: 4,
-    icon: Icons.mui,
-  },
-
-  {
-    name: "Tailwind CSS",
-    description:
-      "Design beautiful, modern websites faster with a utility-first CSS framework.",
-    rating: 5,
-    icon: Icons.tailwindcss,
+    icon: Icons.androidStudio,
   },
   {
     name: "AWS",
@@ -146,16 +103,23 @@ export const skillsUnsorted: skillsInterface[] = [
     name: "MySQL",
     description:
       "Manage and organize relational databases efficiently for data-driven applications.",
-    rating: 2,
+    rating: 4,
     icon: Icons.mysql,
   },
   {
     name: "Netlify",
     description:
       "Manage and organize relational databases efficiently for data-driven applications.",
-    rating: 4,
+    rating: 2,
     icon: Icons.netlify,
   },
+  {
+    name: "Vercel",
+    description:
+      "Deploy and host modern web applications with ease using a platform optimized for frontend frameworks.",
+    rating: 4,
+    icon: Icons.vercel,
+  }
 ];
 
 export const skills = skillsUnsorted

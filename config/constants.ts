@@ -11,6 +11,7 @@ export type ValidSkills =
   | "HTML 5"
   | "CSS 3"
   | "React Native"
+  | "Native Android"
   | "Angular"
   | "Redux"
   | "Socket.io"
@@ -59,7 +60,11 @@ export type ValidSkills =
   | "Django"
   | "FastAPI"
   | "SQL"
+  | "SQL Server"
   | "NoSQL"
+  | "C#"
+  | "ASP.NET"
+  | "Nihongo"
   | "Framer Motion";
 
 export type ValidCategory =
@@ -69,6 +74,9 @@ export type ValidCategory =
   | "UI/UX"
   | "Web Dev"
   | "Mobile Dev"
+  | "IoT Dev"
+  | "Cloud"
+  | "Software"
   | "3D Modeling";
 
 export type ValidExpType = "Personal" | "Professional";

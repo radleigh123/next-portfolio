@@ -4,7 +4,7 @@ export const siteConfig = {
   username: "radleigh123",
   description:
     "Keane Radleigh - Applied AI Engineer working at the intersection of AI, data, and scalable software systems. Explore my projects, experience, and contributions in software development and AI.",
-  url: "https://nbarkiya.xyz",
+  url: "https://my-next-portfolio-ten.vercel.app/",
   links: {
     twitter: "https://x.com/keaneradleigh",
     github: "https://github.com/radleigh123",

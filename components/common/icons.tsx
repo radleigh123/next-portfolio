@@ -42,6 +42,7 @@ import {
 } from "react-icons/hi";
 import { IoIosGitBranch } from "react-icons/io";
 import {
+  SiAndroidstudio,
   SiAmazonwebservices,
   SiAngular,
   SiBootstrap,
@@ -51,6 +52,7 @@ import {
   SiGraphql,
   SiHtml5,
   SiJavascript,
+  SiLaravel,
   SiLinkedin,
   SiMongodb,
   SiMui,
@@ -64,10 +66,12 @@ import {
   SiSocketdotio,
   SiTailwindcss,
   SiTypescript,
+  SiVercel,
   SiX,
 } from "react-icons/si";
 
 export const Icons = {
+  androidStudio: SiAndroidstudio,
   contact: Phone,
   gitRepoIcon: BookMarked,
   gitOrgBuilding: Building,
@@ -92,6 +96,7 @@ export const Icons = {
   sun: SunMedium,
   moon: Moon,
   laptop: Laptop,
+  laravel: SiLaravel,
   menu: Menu,
   chevronDown: ChevronDown,
   laughEmoji: BiLaugh,
@@ -121,6 +126,7 @@ export const Icons = {
   socketio: SiSocketdotio,
   tailwindcss: SiTailwindcss,
   typescript: SiTypescript,
+  vercel: SiVercel,
   gmail: SiGmail,
   twitter: SiX,
   linkedin: SiLinkedin,
