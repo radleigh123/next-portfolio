@@ -21,7 +21,7 @@ export const experiences: ExperienceInterface[] = [
     company: "Wind's Gate Philippines Inc.",
     location: "Cebu, Philippines",
     startDate: new Date("2024-08-01"),
-    endDate: "Present",
+    endDate: new Date("2024-08-01"),
     description: [
       "Worked closely with software engineers to report website and system logs.",
       "Identified and reported any pauses, freezes, or delays in live cryptocurrency rate feeds to the software engineering team.",
